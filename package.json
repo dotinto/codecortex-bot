@@ -1,0 +1,29 @@
+{
+  "name": "codecortex-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for CodeCortex server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc index.ts && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotinto/codecortex-bot.git"
+  },
+  "author": "dotinto",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/dotinto/codecortex-bot/issues"
+  },
+  "homepage": "https://github.com/dotinto/codecortex-bot#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.40",
+    "undici": "^5.21.2"
+  }
+}
