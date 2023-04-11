@@ -31,7 +31,7 @@ module.exports = {
 		context.strokeRect(0, 0, canvas.width, canvas.height);
 
 		var member = interaction.member;
-		var avatar = await Canvas.loadImage("https://cdn.discordapp.com/avatars/" + member.id + "/" > + member.avatar + ".png")
+		var avatar = await Canvas.loadImage("https://cdn.discordapp.com/avatars/" + member.id + "/" + member.avatar + ".jpg")
 
 		context.drawImage(avatar, 25, 25, 200, 200);
 
