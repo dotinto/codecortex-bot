@@ -25,6 +25,6 @@
   "dependencies": {
     "@napi-rs/canvas": "^0.1.40",
     "undici": "^5.21.2",
-    "discord.js": "latest",
+    "discord.js": "^14.9.0",
   }
 }
