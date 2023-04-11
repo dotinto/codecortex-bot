@@ -4,6 +4,7 @@
   "description": "Discord bot for CodeCortex server",
   "main": "index.js",
   "dependencies": {
+    "@napi-rs/canvas": "0.1.40",
     "acorn": "^8.8.2",
     "acorn-jsx": "^5.3.2",
     "ajv": "^6.12.6",
