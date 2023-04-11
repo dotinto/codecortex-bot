@@ -5,8 +5,6 @@ const {
 const Canvas = require("@napi-rs/canvas");
 const { request } = require("undici")
 
-const bgUrl = "../assets/canvas.jpg"
-
 const applyText = (canvas, text) => {
 	const context = canvas.getContext('2d');
 
@@ -25,7 +23,7 @@ module.exports = {
 	async execute(interaction) {
 		var canvas = Canvas.createCanvas(700, 250);
 		var context = canvas.getContext("2d");
-		var background = await Canvas.loadImage(bgUrl);
+		var background = await Canvas.loadImage("canvas.jpg");
 
 		context.drawImage(background, 0, 0, canvas.width, canvas.height);
 
