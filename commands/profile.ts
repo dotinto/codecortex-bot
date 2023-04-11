@@ -4,7 +4,8 @@ const {
 } = require("discord.js")
 const Canvas = require("@napi-rs/canvas");
 const { request } = require("undici")
-var bgUrl = "https://raw.githubusercontent.com/discordjs/guide/main/guide/popular-topics/images/canvas.jpg";
+
+const bgUrl = "../assets/canvas.jpg"
 
 const applyText = (canvas, text) => {
 	const context = canvas.getContext('2d');
