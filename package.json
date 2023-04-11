@@ -18,6 +18,7 @@
     "braces": "^3.0.2",
     "concat-map": "^0.0.1",
     "cross-spawn": "^7.0.3",
+    "discord.js": "^14.9.0",
     "debug": "^4.3.4",
     "deep-is": "^0.1.4",
     "escape-string-regexp": "^4.0.0",
