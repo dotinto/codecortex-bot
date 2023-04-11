@@ -23,7 +23,7 @@ module.exports = {
 	async execute(interaction) {
 		var canvas = Canvas.createCanvas(700, 250);
 		var context = canvas.getContext("2d");
-		var background = await Canvas.loadImage("canvas.jpg");
+		var background = await Canvas.loadImage("https://cdn.discordapp.com/attachments/1093211437989646426/1095438769139761193/canvas.jpg");
 
 		context.drawImage(background, 0, 0, canvas.width, canvas.height);
 
