@@ -29,9 +29,8 @@ module.exports = {
 
 		context.strokeStyle = "#0099ff";
 		context.strokeRect(0, 0, canvas.width, canvas.height);
-
-		var {body} = await request(interaction.user.displayAvatarURL({extension: "jpg"}))
-		var avatar = await Canvas.loadImage(body.arrayBuffer())
+		
+		var avatar = await Canvas.loadImage("https://cdn.discordapp.com/avatars/" + member.id + "/" > + member.avatar + ".png")
 
 		context.drawImage(avatar, 25, 25, 200, 200);
 
