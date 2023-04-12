@@ -2,7 +2,7 @@ const {
 	AttachmentBuilder,
 	SlashCommandBuilder
 } = require("discord.js")
-const Canvas = require("@napi-rs/canvas");
+const Canvas = require("canvas");
 const { request } = require("undici")
 
 const applyText = (canvas, text) => {
