@@ -44,6 +44,7 @@ for (const file of commandFiles) {
 
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
+	if (!interaction.isCommand()) return;
 	const command = interaction.client.commands.get(interaction.commandName);
 	
 	if (!command) {
@@ -61,5 +62,7 @@ client.on(Events.InteractionCreate, async interaction => {
 		}
 	}
 })
+
+module.exports = client;
 
 client.login(TOKEN)
